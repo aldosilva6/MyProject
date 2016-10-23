@@ -38,6 +38,9 @@ public class ShoppingCartTest {
 		assertEquals( 35, cart.payNew( new Money() ).intValue() );
 	}
 	
+	/**
+	 * @since 1.8
+	 */
 	@Test
 	public void testTotalValorNewJava() {
 		assertEquals( 40, cart.pay( PaymentsTypes::credit ).intValue() );
