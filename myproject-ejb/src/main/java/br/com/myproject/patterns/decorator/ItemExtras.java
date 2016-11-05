@@ -13,6 +13,8 @@ package br.com.myproject.patterns.decorator;
  * 
  * O pulo do gato é a referência para a interface que é recebia pelo construtor.
  * 
+ * Os decoradores têm o mesmo supertipo que os objetos que eles decoram;
+ * 
  * @see Item
  * @author aldosilva
  *
